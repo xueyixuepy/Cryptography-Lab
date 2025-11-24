@@ -70,9 +70,9 @@ def aes_cbc_decrypt_zero_iv(key_hex, base64_ciphertext):
             # 返回十六进制表示
             return decrypted.hex()
 
-# 测试用例
+
 if __name__ == "__main__":
-    # 你的数据
+    
     base64_cipher = "9MgYwmuPrjiecPMx6106zluy3MtlXQQ0E59T3xB6u0Gyf1gYs2i3K9Jxaa0zj4gTMazJuApwd6+jdyel5iGHvhQyDHGVlAuYTgJrbFDrfB22Fpil2NfNnWFBTXyf7SDI"
     
 
